@@ -1,0 +1,107 @@
+html {
+  font-size: 16px; /* Base font size, typically 16px */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5; /* Default line height */
+  background-color: var(--background-color, #fff); /* Theme-ready */
+  color: var(--text-color, #212529); /* Theme-ready */
+}
+
+/* Basic App.css - can be expanded */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: left; /* Default to left-align for content */
+}
+
+.App-header {
+  /* background-color: #f8f9fa; Optional background for header area */
+  /* border-bottom: 1px solid #dee2e6; */
+  /* position: sticky; */ /* If navbar should stick */
+  /* top: 0; */
+  /* z-index: 1000; */
+}
+
+main#main-content {
+  flex-grow: 1;
+  padding: 1rem; /* Padding for the main content area */
+  /* overflow-y: auto; */ /* Already present, good */
+}
+
+.App-footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.App-footer p {
+  margin: 0;
+}
+
+
+/* Skip Link Styling */
+.skip-link {
+  position: absolute;
+  top: -40px; /* Hide it off-screen */
+  left: 0;
+  background: #007bff;
+  color: white;
+  padding: 8px;
+  z-index: 9999; /* Ensure it's on top of everything */
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0; /* Bring it into view when focused */
+}
+
+/* Visually hidden class for screen reader text */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
+/* Placeholder for theme switcher - actual themes would be more complex */
+.theme-light {
+  --background-color: #ffffff;
+  --text-color: #212529;
+  --primary-color: #007bff;
+  /* ... other variables */
+}
+
+.theme-dark {
+  --background-color: #212529;
+  --text-color: #f8f9fa;
+  --primary-color: #0d6efd; /* Slightly different blue for dark mode */
+  /* ... other variables */
+}
+
+.theme-high-contrast {
+  --background-color: #000000;
+  --text-color: #ffffff;
+  --primary-color: #ffff00; /* Yellow for high contrast links/buttons */
+  /* Links might need explicit styling for high contrast */
+}
+
+/* Example usage - you'd apply this to the .App div or body */
+/* body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+} */

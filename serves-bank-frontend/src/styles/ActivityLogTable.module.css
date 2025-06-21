@@ -1,0 +1,32 @@
+.logTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.logTable th,
+.logTable td {
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.logTable th {
+  background-color: #f0f4f7; /* Light blue-grey */
+  font-weight: 600;
+  color: #333;
+}
+
+.logTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.logTable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.logTable td:first-child { /* Timestamp */
+  white-space: nowrap;
+}

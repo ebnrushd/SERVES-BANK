@@ -1,0 +1,19 @@
+.accountBalanceContainer {
+  /* Inherits from .componentSection if nested, or define similar styles */
+}
+
+.accountBalanceContainer h3 {
+  font-size: 1.3em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.accountBalanceContainer p {
+  font-size: 1.1em;
+  margin: 5px 0;
+  color: #34495e;
+}
+
+.accountBalanceContainer p:first-of-type {
+  font-weight: bold;
+}

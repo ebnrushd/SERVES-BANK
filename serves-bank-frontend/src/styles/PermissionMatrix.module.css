@@ -1,0 +1,43 @@
+.permissionTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 0.85em; /* Slightly smaller font for dense table */
+}
+
+.permissionTable th,
+.permissionTable td {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  text-align: center; /* Center checkmarks/crosses */
+}
+
+.permissionTable th {
+  background-color: #e9ecef; /* Light grey */
+  font-weight: 600;
+  color: #495057;
+  text-align: left; /* Align permission names to the left */
+}
+
+.permissionTable th:first-child { /* Role column header */
+  text-align: left;
+  min-width: 120px; /* Ensure role name has enough space */
+}
+
+.permissionTable td:first-child { /* Role names */
+  text-align: left;
+  font-weight: bold;
+}
+
+.permissionTable tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.permissionTable tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+/* Styling for checkmark/cross if using text, can use icons too */
+.permissionTable td {
+  font-size: 1.2em; /* Make check/cross slightly larger */
+}
