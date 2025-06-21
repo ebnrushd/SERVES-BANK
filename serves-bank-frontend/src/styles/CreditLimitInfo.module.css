@@ -1,0 +1,15 @@
+.creditLimitInfoContainer {
+  /* Inherits from .componentSection if nested */
+}
+
+.creditLimitInfoContainer h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.creditLimitInfoContainer p {
+  font-size: 1em;
+  margin: 4px 0;
+  color: #555;
+}

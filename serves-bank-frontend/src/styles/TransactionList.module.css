@@ -1,0 +1,42 @@
+.transactionListContainer {
+  /* Inherits from .componentSection if nested, or define similar styles */
+}
+
+.transactionTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.transactionTable th,
+.transactionTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.transactionTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+}
+
+.transactionTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.transactionTable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.transactionTable td:nth-child(3) { /* Amount column */
+  text-align: right;
+}
+
+.transactionTable .credit {
+  color: green;
+}
+
+.transactionTable .debit {
+  color: red;
+}

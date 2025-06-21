@@ -1,0 +1,49 @@
+.reportContainer {
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.reportContainer h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.15em;
+  color: #33475b; /* Darker blue-grey */
+}
+
+.reportContainer p {
+  margin: 5px 0;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.reportContainer strong {
+  font-weight: 600;
+}
+
+.balanced {
+  color: #2ecc71; /* Green */
+}
+
+.discrepancy {
+  color: #e74c3c; /* Red */
+}
+
+.investigateButton {
+  background-color: #e67e22; /* Orange for investigate */
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.investigateButton:hover {
+  background-color: #d35400;
+}

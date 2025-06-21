@@ -1,0 +1,33 @@
+.statusContainer {
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  margin-top: 20px;
+}
+
+.statusContainer h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.statusContainer p {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.statusContainer button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.statusContainer button:hover {
+  background-color: #0056b3;
+}

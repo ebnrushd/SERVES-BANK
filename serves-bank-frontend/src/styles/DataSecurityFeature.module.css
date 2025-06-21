@@ -1,0 +1,21 @@
+.featureItem {
+  background-color: #f9f9f9;
+  border: 1px solid #e7e7e7;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.featureItem h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #34495e; /* Dark blue-grey */
+  font-size: 1.1em;
+}
+
+.featureItem p {
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 0;
+}

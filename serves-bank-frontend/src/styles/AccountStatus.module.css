@@ -1,0 +1,17 @@
+.accountStatusContainer {
+  /* Inherits from .componentSection if nested, or define similar styles */
+  padding: 10px;
+  /* background-color: #e9ecef; */ /* Light grey, if not using componentSection */
+  /* border-radius: 5px; */
+  margin-bottom: 15px; /* If not part of a larger section */
+}
+
+.accountStatusContainer p {
+  font-size: 1.1em;
+  margin: 0;
+  color: #495057;
+}
+
+.accountStatusContainer strong {
+  color: #007bff; /* Blue for status, or choose based on status type */
+}

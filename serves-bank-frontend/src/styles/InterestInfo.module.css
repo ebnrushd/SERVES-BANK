@@ -1,0 +1,15 @@
+.interestInfoContainer {
+  /* Inherits from .componentSection if nested */
+}
+
+.interestInfoContainer h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.interestInfoContainer p {
+  font-size: 1em;
+  margin: 4px 0;
+  color: #555;
+}

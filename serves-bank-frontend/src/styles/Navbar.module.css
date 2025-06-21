@@ -1,0 +1,76 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks li {
+  margin-left: 20px;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+.userProfile span {
+  color: white;
+}
+
+.navSection {
+  color: #aaa; /* Lighter color for section headers */
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px; /* Add some space if sections are stacked */
+  display: block; /* Make it a block to take its own line if needed or for spacing */
+}
+
+
+/* Basic responsive design */
+@media (max-width: 768px) {
+  .navLinks {
+    display: none; /* Hide links for now, will implement hamburger later */
+  }
+  /* Show a placeholder for hamburger menu if needed */
+  .navbar::after {
+    content: '☰'; /* Placeholder for hamburger icon */
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .navLinks.active { /* Example class to show links when toggled */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .navLinks.active li {
+    margin: 10px 20px;
+  }
+}

@@ -1,0 +1,37 @@
+.feeTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 0.95em;
+}
+
+.feeTable th,
+.feeTable td {
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.feeTable th {
+  background-color: #f7f7f7;
+  font-weight: 600;
+  color: #333;
+}
+
+.feeTable tbody tr:nth-child(even) {
+  background-color: #fdfdfd;
+}
+
+.feeTable tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.feeTable td:nth-child(2) { /* Amount column */
+  font-weight: bold;
+}
+
+.feeTable td:last-child { /* Conditions column */
+  font-size: 0.9em;
+  color: #555;
+}

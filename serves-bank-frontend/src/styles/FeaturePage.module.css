@@ -1,0 +1,74 @@
+.featurePageContainer {
+  padding: 20px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.featurePageContainer h1 {
+  font-size: 1.9em;
+  color: #333;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.featurePageContainer h2 {
+  font-size: 1.5em;
+  color: #444;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.featurePageContainer h3 {
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.featurePageContainer p {
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.infoSection, .settingsSection, .listSection, .formSection, .historySection, .disclaimerSection, .toolsSection, .customStatementSection {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.featurePageContainer button, .featurePageContainer input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.featurePageContainer button:hover, .featurePageContainer input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.featurePageContainer input[type="text"],
+.featurePageContainer input[type="number"],
+.featurePageContainer input[type="date"],
+.featurePageContainer select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  margin-right: 10px; /* Spacing between inputs if inline */
+  margin-bottom: 10px; /* Spacing if stacked */
+}
+
+.featurePageContainer label {
+  margin-right: 5px;
+  font-weight: bold;
+}

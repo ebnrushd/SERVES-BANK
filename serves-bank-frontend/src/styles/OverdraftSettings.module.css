@@ -1,0 +1,67 @@
+.settingsContainer {
+  /* Inherits from .settingsSection if nested, or define similar styles */
+}
+
+.settingsContainer h3 {
+  font-size: 1.3em;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.settingsContainer .optIn {
+  color: #27ae60; /* Green */
+  font-weight: bold;
+}
+
+.settingsContainer .optOut {
+  color: #c0392b; /* Red */
+  font-weight: bold;
+}
+
+.settingsContainer p {
+  font-size: 1em;
+  margin: 8px 0;
+  color: #34495e;
+}
+
+.settingsContainer p strong {
+  color: #2c3e50;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px; /* Space between buttons */
+}
+
+.actions button {
+  padding: 10px 15px;
+  font-size: 0.95em;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.actions button:first-child { /* Opt-in/Opt-out button */
+  background-color: #3498db;
+  color: white;
+}
+.actions button:first-child:hover {
+  background-color: #2980b9;
+}
+
+.actions button:last-child { /* Modify Settings button */
+  background-color: #f39c12;
+  color: white;
+}
+.actions button:last-child:hover {
+  background-color: #e67e22;
+}
+
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: 0.85em;
+  color: #7f8c8d;
+  font-style: italic;
+}
